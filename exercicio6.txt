@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main() {
+    int valor = 5;
+    
+    while (valor > -1){
+        printf("%d \n", valor);
+        --valor;
+    }
+    
+    if (valor == -1){
+        printf("lançar!");
+    }
+    
+    return 0;
+}
